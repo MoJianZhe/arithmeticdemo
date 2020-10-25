@@ -1,6 +1,8 @@
-package org.example.tree;
+package org.example.demo.tree;
 
-
+/**
+ * 判断是否是二叉搜索树 #98
+ */
 public class JudgeBST {
 
 

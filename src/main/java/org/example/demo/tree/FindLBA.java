@@ -1,5 +1,8 @@
-package org.example.tree;
+package org.example.demo.tree;
 
+/**
+ * 查找2个节点的公共祖先。#235
+ */
 public class FindLBA {
 
     public static void main(String[] args) {

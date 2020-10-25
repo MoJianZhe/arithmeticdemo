@@ -1,4 +1,4 @@
-package org.example.tree;
+package org.example.demo.tree;
 
 public class TreeNode {
     int val;

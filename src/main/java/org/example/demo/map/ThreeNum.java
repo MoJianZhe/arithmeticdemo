@@ -1,6 +1,4 @@
-package org.example.map;
-
-import javafx.scene.shape.StrokeLineJoin;
+package org.example.demo.map;
 
 import java.util.*;
 

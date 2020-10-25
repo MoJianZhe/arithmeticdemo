@@ -1,4 +1,4 @@
-package org.example.arraylink;
+package org.example.demo.arraylink;
 
 /**
  * 反转一个单链表
