@@ -1,6 +1,8 @@
 package org.example.demo.twopoint;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.logging.Level;
 
 /**
@@ -12,6 +14,8 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] a = {2, 34, 2142, 3, 3, 2};
+
+        Arrays.sort(a);
         quickSort(a, 0, a.length - 1);
         System.out.println(Arrays.toString(a));
 
