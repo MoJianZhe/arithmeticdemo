@@ -1,5 +1,7 @@
 package org.example.demo.others;
 
+import com.sun.xml.internal.bind.v2.TODO;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +17,7 @@ public class Bracket {
         return list;
     }
 
+    //todo 还并未理解该题。
     public void helper(int n, int left, int right,List<String > list,String result) {
         if (left == n && right == n) {
             list.add(result);
@@ -29,6 +32,9 @@ public class Bracket {
 
     }
 
+    public static void main(String[] args) {
+        new Bracket().generateBrackets(3);
+    }
 
     public static class Solution {
         ArrayList[] cache = new ArrayList[100];
