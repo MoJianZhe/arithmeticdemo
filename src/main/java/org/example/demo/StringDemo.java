@@ -1,6 +1,10 @@
 package org.example.demo;
 
+import java.util.Comparator;
+import java.util.PriorityQueue;
 import java.util.Stack;
+import java.util.concurrent.ConcurrentSkipListMap;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 public class StringDemo {
 
@@ -33,6 +37,10 @@ public class StringDemo {
 
     public static void main(String[] args) {
        boolean resut =  new StringDemo().judgeStr("()()  ()");
-        System.out.println(resut);
+        ConcurrentSkipListMap<String,Integer > skipList = new ConcurrentSkipListMap<>();
+        skipList.put("hello", 23);
+        skipList.put("我的天啊", 24);
+        System.out.println(skipList.get("asdf"));;
+
     }
 }
