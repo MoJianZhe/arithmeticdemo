@@ -1,4 +1,4 @@
-package org.example.demo.numbers;
+package org.example.demo.dynamic;
 
 import java.util.*;
 
