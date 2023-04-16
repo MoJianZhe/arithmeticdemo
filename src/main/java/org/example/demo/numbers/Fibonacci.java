@@ -40,5 +40,4 @@ public class Fibonacci {
         System.out.println(new Fibonacci().dynamicProgram(5));
     }
 
-
 }

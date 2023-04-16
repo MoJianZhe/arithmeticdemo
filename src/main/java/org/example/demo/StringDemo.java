@@ -15,7 +15,7 @@ public class StringDemo {
      */
     public boolean judgeStr(String str) {
         String[] chars = str.split("");
-        Stack<String > characters = new Stack<>();
+        Stack<String> characters = new Stack<>();
         for (String s : chars) {
             if (" ".equals(s)) {
                 continue;
@@ -36,11 +36,11 @@ public class StringDemo {
 
 
     public static void main(String[] args) {
-       boolean resut =  new StringDemo().judgeStr("()()  ()");
-        ConcurrentSkipListMap<String,Integer > skipList = new ConcurrentSkipListMap<>();
+        boolean resut = new StringDemo().judgeStr("()()  ()");
+        ConcurrentSkipListMap<String, Integer> skipList = new ConcurrentSkipListMap<>();
         skipList.put("hello", 23);
         skipList.put("我的天啊", 24);
-        System.out.println(skipList.get("asdf"));;
+        System.out.println(skipList.get("asdf")); ;
 
     }
 }

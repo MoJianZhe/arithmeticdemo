@@ -41,7 +41,7 @@ public class PowDemo {
         if (isEvenNum(n)) {
             //不需要重复调用getPow(),这样的话，会调用很多层，直接超时了。
 //            return getPow(x, n / 2) * getPow((x), n / 2);
-            return y*y;
+            return y * y;
         } else {
 //            return getPow(x, n / 2) * getPow(x, n / 2) * x;
             return y * y * x;
@@ -51,8 +51,6 @@ public class PowDemo {
     public static boolean isEvenNum(int x) {
         return x % 2 == 0;
     }
-
-
 
 
     static class Solution {

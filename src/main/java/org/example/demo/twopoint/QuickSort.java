@@ -21,7 +21,7 @@ public class QuickSort {
 
     }
 
-    public static void quickSort(int[] nums,int start ,int end) {
+    public static void quickSort(int[] nums, int start, int end) {
         if (start >= end) {
             return;
         }
@@ -38,7 +38,7 @@ public class QuickSort {
         while (i < j) {
             while (nums[i] <= v) {
                 i++;
-                if(i==end) {break;}
+                if (i == end) {break;}
             }
             while (nums[j] > v) {
                 // j--的时候可能会小于i
@@ -56,13 +56,13 @@ public class QuickSort {
 
 
     public static int partition(int[] nums, int low, int high) {
-        int i =low;
+        int i = low;
         int v = nums[low];
         int j = high;
         while (true) {
             while (nums[i] <= v) {
                 i++;
-                if(i==high) {break;}
+                if (i == high) {break;}
             }
             while (nums[j] > v) {
                 j--;

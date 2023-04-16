@@ -2,6 +2,7 @@ package org.example.demo.arraylink;
 
 public class ListNode {
     int val;
+
     ListNode next;
 
     ListNode(int val) {

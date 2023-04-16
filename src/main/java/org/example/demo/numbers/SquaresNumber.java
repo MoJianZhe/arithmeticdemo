@@ -26,7 +26,7 @@ public class SquaresNumber {
         if (isSquare(n)) {
             return 1;
         }
-        for (int i = 0; i*i <n ; i++) {
+        for (int i = 0; i * i < n; i++) {
             if (isSquare(n - (i * i))) {
                 return 2;
             }

@@ -11,8 +11,6 @@ public class JudgeBST {
     }
 
 
-
-
     /**
      * 判断一颗数是不是二叉查找数，左子树都小于current，又子树都大于 current
      */

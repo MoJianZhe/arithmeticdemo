@@ -6,7 +6,7 @@ import org.omg.CORBA.INTERNAL;
  * 跳跃表
  * @author jun
  */
-public class SkipList<K extends Comparable,V> {
+public class SkipList<K extends Comparable, V> {
 
 
     private final Node head;
@@ -21,13 +21,19 @@ public class SkipList<K extends Comparable,V> {
         tail.left = head;
     }
 
-    class  Node{
+    class Node {
         K key;
+
         V value;
+
         Node right;
+
         Node left;
+
         Node up;
+
         Node down;
+
         Node(K key, V value) {
             this.key = key;
             this.value = value;
@@ -66,6 +72,5 @@ public class SkipList<K extends Comparable,V> {
     public void put(K key, V val) {
 
     }
-
 
 }

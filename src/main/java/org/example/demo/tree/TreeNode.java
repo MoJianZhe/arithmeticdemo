@@ -4,10 +4,16 @@ import java.util.Objects;
 
 public class TreeNode {
     int val;
+
     TreeNode left;
+
     TreeNode right;
+
     TreeNode pre;
-    TreeNode(int x) { val = x; }
+
+    TreeNode(int x) {
+        val = x;
+    }
 
     @Override
     public boolean equals(Object o) {

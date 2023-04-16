@@ -14,8 +14,6 @@ public class KLargeValue {
     }
 
 
-
-
     class Solution {
         Random random = new Random();
 

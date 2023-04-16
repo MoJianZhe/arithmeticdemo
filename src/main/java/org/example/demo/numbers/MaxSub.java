@@ -26,7 +26,7 @@ public class MaxSub {
     }
 
     public static void main(String[] args) {
-        int[] test = new int[]{1, 2};
+        int[] test = new int[] {1, 2};
         MaxSub maxSub = new MaxSub();
         System.out.println(maxSub.maxProduct(test));
     }
@@ -49,6 +49,5 @@ public class MaxSub {
             return ans;
         }
     }
-
 
 }

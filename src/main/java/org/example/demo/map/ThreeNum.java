@@ -6,7 +6,7 @@ public class ThreeNum {
 
 
     public static void main(String[] args) {
-        int[] ints = {0,0,0};
+        int[] ints = {0, 0, 0};
         List<List<Integer>> lists = threeSum(ints);
         lists.forEach(s -> System.out.println(s));
     }
@@ -29,7 +29,7 @@ public class ThreeNum {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums.length; j++) {
-                if(i==j) {continue;}
+                if (i == j) {continue;}
                 int reversal = -(nums[i] + nums[j]);
                 int index = list.indexOf(reversal);
                 if (index >= 0 && index != i && index != j) {
@@ -93,6 +93,5 @@ public class ThreeNum {
         }
         return ans;
     }
-
 
 }

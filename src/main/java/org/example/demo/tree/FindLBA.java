@@ -9,12 +9,12 @@ public class FindLBA {
 
     }
 
-    public static TreeNode findLBA(TreeNode root,TreeNode a, TreeNode b) {
+    public static TreeNode findLBA(TreeNode root, TreeNode a, TreeNode b) {
         return inTree(root, a, b);
     }
 
     public static TreeNode inTree(TreeNode root, TreeNode a, TreeNode b) {
-        if(root==null) {return null;}
+        if (root == null) {return null;}
         if (root.val > a.val && root.val > b.val) {
             return inTree(root.left, a, b);
         }

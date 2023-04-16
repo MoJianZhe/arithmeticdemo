@@ -22,7 +22,7 @@ public class LongestPalindrome {
                 }
             }
         }
-        Object[] list =  palindromeMap.keySet().toArray();
+        Object[] list = palindromeMap.keySet().toArray();
         Arrays.sort(list);
         return palindromeMap.get(list[list.length - 1]).toString();
     }
@@ -50,7 +50,7 @@ public class LongestPalindrome {
     public String myLongestLindrome(String s) {
         int length = s.length();
         // 存储 dp[i][l],i表示起始位置，l 表示长度。
-        boolean [][] dp = new boolean[length][length];
+        boolean[][] dp = new boolean[length][length];
         String ans = "";
         //必须得先遍历l ,如果先遍历i ,后面的 i+l<length 就限制了 l的长度。
         for (int l = 0; l < length; l++) {
@@ -62,7 +62,7 @@ public class LongestPalindrome {
                 } else if (l == 1) {
                     //两个字符的时候
                     dp[i][j] = s.charAt(i) == s.charAt(j);
-                } else if ((s.charAt(i) == s.charAt(j)) && dp[i + 1][j- 1]) {
+                } else if ((s.charAt(i) == s.charAt(j)) && dp[i + 1][j - 1]) {
                     dp[i][j] = true;
                 }
                 if (dp[i][j] && l + 1 > ans.length()) {
@@ -73,7 +73,6 @@ public class LongestPalindrome {
         return ans;
 
     }
-
 
 
     public static void main(String[] args) {
@@ -111,6 +110,5 @@ public class LongestPalindrome {
             return ans;
         }
     }
-
 
 }

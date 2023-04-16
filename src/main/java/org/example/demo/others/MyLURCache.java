@@ -40,9 +40,9 @@ public class MyLURCache {
     }
 
     public static void main(String[] args) {
-       MyLURCache cache =  new MyLURCache(2);
+        MyLURCache cache = new MyLURCache(2);
         LinkedHashMap<String, String> map = new LinkedHashMap<>();
-       cache.put(1,1);
+        cache.put(1, 1);
         cache.put(2, 2);
         int get1 = cache.get(1);
         System.out.println(get1);
@@ -61,16 +61,27 @@ public class MyLURCache {
     public class LRUCache {
         class DLinkedNode {
             int key;
+
             int value;
+
             DLinkedNode prev;
+
             DLinkedNode next;
-            public DLinkedNode() {}
-            public DLinkedNode(int _key, int _value) {key = _key; value = _value;}
+
+            public DLinkedNode() {
+            }
+
+            public DLinkedNode(int _key, int _value) {
+                key = _key; value = _value;
+            }
         }
 
         private Map<Integer, DLinkedNode> cache = new HashMap<Integer, DLinkedNode>();
+
         private int size;
+
         private int capacity;
+
         private DLinkedNode head, tail;
 
         public LRUCache(int capacity) {
@@ -110,8 +121,7 @@ public class MyLURCache {
                     cache.remove(tail.key);
                     --size;
                 }
-            }
-            else {
+            } else {
                 // 如果 key 存在，先通过哈希表定位，再修改 value，并移到头部
                 node.value = value;
                 moveToHead(node);
@@ -141,7 +151,5 @@ public class MyLURCache {
             return res;
         }
     }
-
-
 
 }

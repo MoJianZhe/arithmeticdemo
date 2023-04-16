@@ -18,7 +18,7 @@ public class Bracket {
     }
 
     //todo 还并未理解该题。
-    public void helper(int n, int left, int right,List<String > list,String result) {
+    public void helper(int n, int left, int right, List<String> list, String result) {
         if (left == n && right == n) {
             list.add(result);
         }

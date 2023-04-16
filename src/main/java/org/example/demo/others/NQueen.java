@@ -16,14 +16,14 @@ public class NQueen {
     }
 
 
-    public static class MyQueen{
+    public static class MyQueen {
 
         public List<List<String>> solution(int n) {
             return null;
         }
 
-        public void helper(List<List<String>> solution, int row, int n,int[] queens,
-                           Set<Integer> cols, Set<Integer> s1, Set<Integer> s2) {
+        public void helper(List<List<String>> solution, int row, int n, int[] queens,
+                Set<Integer> cols, Set<Integer> s1, Set<Integer> s2) {
             if (row == n) {
                 solution.add(generalBoard(queens, n));
             } else {
@@ -63,7 +63,6 @@ public class NQueen {
         }
 
     }
-
 
 
     class Solution {
@@ -119,8 +118,5 @@ public class NQueen {
             return board;
         }
     }
-
-
-
 
 }

@@ -6,16 +6,16 @@ import java.util.Set;
 /**
  * 环形列表，找到第一个节点。#142
  */
-public class CycleLink  {
+public class CycleLink {
 
     public static void main(String[] args) {
         ListNode listNode = new ListNode(3);
         ListNode node2 = new ListNode(2);
         ListNode node0 = new ListNode(0);
         ListNode node4 = new ListNode(4);
-        listNode.next= node2;
+        listNode.next = node2;
         node2.next = node0;
-        node0.next=node4;
+        node0.next = node4;
         node4.next = node2;
         ListNode pos = findBy2Point(listNode);
         System.out.println(pos.val);
