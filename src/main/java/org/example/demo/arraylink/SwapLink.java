@@ -12,8 +12,11 @@ public class SwapLink {
         ListNode newTail = null;
         ListNode current = head;
         while (current != null) {
+            //将当前的节点翻转
             ListNode temp = current.next;
             current.next = newTail;
+
+            //复制，下一步
             newTail = current;
             current = temp;
         }
@@ -21,6 +24,11 @@ public class SwapLink {
     }
 
 
+    /**
+     * O(n)
+     * @param root 根
+     * @return
+     */
     public static ListNode twoPoint(ListNode root) {
         ListNode pre = null;
         ListNode cur = root;
@@ -38,7 +46,9 @@ public class SwapLink {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
-        ListNode newNode = twoPoint(head);
+//        ListNode newNode = twoPoint(head);
+        ListNode newNode = reverseList(head);
+
         while (newNode != null) {
             System.out.println(newNode.val);
             newNode = newNode.next;

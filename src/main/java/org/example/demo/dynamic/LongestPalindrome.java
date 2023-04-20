@@ -27,6 +27,11 @@ public class LongestPalindrome {
         return palindromeMap.get(list[list.length - 1]).toString();
     }
 
+    /**
+     * 时间：O(n)
+     * @param chars
+     * @return
+     */
     public boolean isPalindrome(char[] chars) {
         for (int i = 0; i < chars.length / 2; i++) {
             if (chars[i] != chars[chars.length - i - 1]) {
@@ -36,6 +41,11 @@ public class LongestPalindrome {
         return true;
     }
 
+    /**
+     * 时间：O(n)
+     * @param s
+     * @return
+     */
     public boolean officePalindrome(String s) {
         StringBuilder sb = new StringBuilder(s);
         sb.reverse();
@@ -84,7 +94,14 @@ public class LongestPalindrome {
 
     }
 
+
+
     class Solution {
+        /**
+         * O(n^2)
+         * @param s
+         * @return
+         */
         public String longestPalindrome(String s) {
             int n = s.length();
             boolean[][] dp = new boolean[n][n];

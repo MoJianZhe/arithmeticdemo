@@ -19,6 +19,11 @@ public class JudgeBST {
         return helper(treeNode);
     }
 
+    /**
+     * O(n)
+     * @param root
+     * @return
+     */
     //按照递归的形式，应该左边小于
     public static boolean helper(TreeNode root) {
         if (root == null) {

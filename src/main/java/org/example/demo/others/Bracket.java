@@ -33,7 +33,8 @@ public class Bracket {
     }
 
     public static void main(String[] args) {
-        new Bracket().generateBrackets(3);
+        List<String> strings = new Bracket().generateBrackets(5);
+        System.out.println(strings.toString());
     }
 
     public static class Solution {

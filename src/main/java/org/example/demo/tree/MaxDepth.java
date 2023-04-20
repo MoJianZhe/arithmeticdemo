@@ -6,6 +6,11 @@ package org.example.demo.tree;
  */
 public class MaxDepth {
 
+    /**
+     * O(2^n) n 是树的深度
+     * @param root
+     * @return
+     */
     public int getMaxDepth(TreeNode root) {
         if (root == null) {
             return 0;

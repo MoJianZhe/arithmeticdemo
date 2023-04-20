@@ -8,11 +8,11 @@ public class ThreeNum {
     public static void main(String[] args) {
         int[] ints = {0, 0, 0};
         List<List<Integer>> lists = threeSum(ints);
-        lists.forEach(s -> System.out.println(s));
+        lists.forEach(System.out::println);
     }
 
     /**
-     *
+     * O (n^2)
      * @param nums
      * @return
      */

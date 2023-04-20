@@ -16,6 +16,13 @@ public class Palindrome {
         System.out.println(Integer.valueOf("012"));
     }
 
+    /**
+     * o(N)
+     * //fixme 有 bug 吧，这个map 的比较,只是表示字母的数量一样，就包括一定是回文么？
+     * @param str1
+     * @param str2
+     * @return
+     */
     public static boolean isPalindromeStr(String str1, String str2) {
         char[] chars1 = str1.toCharArray();
         char[] chars2 = str2.toCharArray();

@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.logging.Level;
 
 /**
+ * 时间复杂度: O(nlogn)
  * 快速排序：
  * 1. 切分（使得 j,确定j的位置，使得a[0] ~a[j-1] 都小于a[j]。a[j+1}~a[length-1]都大于a[j];
  * 2. 递归

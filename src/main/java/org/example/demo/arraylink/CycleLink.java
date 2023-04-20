@@ -21,6 +21,14 @@ public class CycleLink {
         System.out.println(pos.val);
     }
 
+
+    /**
+     * 常规解法：将节点放在set中
+     * 时间：O(n)
+     * 空间：O(n)
+     * @param node
+     * @return
+     */
     public static ListNode detectNode(ListNode node) {
         ListNode current = node;
         Set<ListNode> set = new HashSet<>();
@@ -35,6 +43,14 @@ public class CycleLink {
         return null;
     }
 
+    /**
+     * 时间：O(n)
+     * 空间: O(1)
+     *
+     * 快慢指针
+     * @param head 头节点
+     * @return
+     */
     public static ListNode findBy2Point(ListNode head) {
         if (head == null) {
             return null;

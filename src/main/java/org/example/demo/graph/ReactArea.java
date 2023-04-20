@@ -26,6 +26,11 @@ public class ReactArea {
 
 
     static class Solution {
+        /**
+         * 时间O(n^2)
+         * @param nums
+         * @return
+         */
         public int findDuplicate(int[] nums) {
             int n = nums.length;
             int l = 1, r = n - 1, ans = -1;

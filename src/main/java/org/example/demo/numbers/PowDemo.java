@@ -54,6 +54,12 @@ public class PowDemo {
 
 
     static class Solution {
+        /**
+         * O(logN)
+         * @param x
+         * @param N
+         * @return
+         */
         public double quickMul(double x, long N) {
             if (N == 0) {
                 return 1.0;

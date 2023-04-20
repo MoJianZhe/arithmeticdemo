@@ -12,6 +12,11 @@ public class MajorityNum {
 
     }
 
+    /**
+     * 时间复杂度：O(n)
+     * @param nums
+     * @return
+     */
     private static int majority(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {

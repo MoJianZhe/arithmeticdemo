@@ -16,6 +16,11 @@ public class NoCircleChar {
     }
 
     class Solution {
+        /**
+         * 时间复杂度:O(n^2)
+         * @param s
+         * @return
+         */
         public int lengthOfLongestSubstring(String s) {
             // 哈希集合，记录每个字符是否出现过
             Set<Character> occ = new HashSet<Character>();

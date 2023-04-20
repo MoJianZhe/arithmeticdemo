@@ -33,6 +33,7 @@ public class MaxSub {
 
     class Solution {
         /**
+         * 时间复杂度: O(n)
          * 分成 正和负
          * @param nums
          * @return

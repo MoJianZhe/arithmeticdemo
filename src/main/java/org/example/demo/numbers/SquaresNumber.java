@@ -11,6 +11,7 @@ public class SquaresNumber {
     }
 
     /**
+     * 时间复杂度：O(n)
      * 任何一个数 n = a1^2 + a2^2+ a3^2 + a4^2
      * 当满足 n !=4^k*(8m+7） => n =  a1^2 + a2^2+ a3^2
      * @param n 给定的数

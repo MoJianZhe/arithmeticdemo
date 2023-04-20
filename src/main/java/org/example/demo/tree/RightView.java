@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
+ * 时间复杂度：O(n)
  * 二叉树的右视图，#199
  */
 public class RightView {

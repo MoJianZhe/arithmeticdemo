@@ -14,6 +14,10 @@ import java.util.Set;
 public class DFS {
     Set<TreeNode> visitedSet = new HashSet<>();
 
+    /**
+     * O(n)
+     * @param current
+     */
     public void transfer(TreeNode current) {
         if (current == null) {
             return;

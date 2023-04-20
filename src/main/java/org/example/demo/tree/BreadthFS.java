@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class BreadthFS {
 
+    /**
+     * 时间复杂度：O(n)
+     * @param root
+     * @return
+     */
     private List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> lists = new ArrayList<>();
         if (root == null) {

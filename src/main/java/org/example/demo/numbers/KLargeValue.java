@@ -21,6 +21,15 @@ public class KLargeValue {
             return quickSelect(nums, 0, nums.length - 1, nums.length - k);
         }
 
+        /**
+         * O(logn)
+         * 快速查询，分治法
+         * @param a
+         * @param l
+         * @param r
+         * @param index
+         * @return
+         */
         public int quickSelect(int[] a, int l, int r, int index) {
             int q = randomPartition(a, l, r);
             if (q == index) {
