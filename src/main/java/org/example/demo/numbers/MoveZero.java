@@ -1,9 +1,6 @@
 package org.example.demo.numbers;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * 给一个数组，把所有0移到末尾，原来非0顺序不变 #283
@@ -19,6 +16,7 @@ public class MoveZero {
     /**
      * 反向解法，移动为0的太麻烦了，将为0的，移动在一起，其余的就是为0的。
      * 时间复杂度：O(n)
+     * 空间复杂度：O(1)
      * @param nums
      */
     public static void move0(int[] nums) {
@@ -35,4 +33,7 @@ public class MoveZero {
         }
 
     }
+
+
+
 }

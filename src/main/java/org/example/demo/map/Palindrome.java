@@ -6,6 +6,7 @@ import java.util.Map;
 public class Palindrome {
 
     /**
+     * #125
      * 判断2个字母是不是回文
      * rat 和 tar 是回文
      * 相同的字母，顺序不一样就可以
@@ -18,7 +19,7 @@ public class Palindrome {
 
     /**
      * o(N)
-     * //fixme 有 bug 吧，这个map 的比较,只是表示字母的数量一样，就包括一定是回文么？
+     * //fixme 有 bug 吧，这个map 的比较,只是表示字母的数量一样，就一定是回文么？
      * @param str1
      * @param str2
      * @return
