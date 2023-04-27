@@ -23,6 +23,7 @@ public class DFS {
             return;
         }
 //        visitedSet.add(current);
+        //交换他们的顺序就是  前，中，后了。
         System.out.println(current.val);
         transfer(current.left);
         transfer(current.right);

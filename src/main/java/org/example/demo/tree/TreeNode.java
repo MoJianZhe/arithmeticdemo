@@ -9,7 +9,6 @@ public class TreeNode {
 
     TreeNode right;
 
-    TreeNode pre;
 
     TreeNode(int x) {
         val = x;
@@ -23,11 +22,8 @@ public class TreeNode {
         TreeNode treeNode = (TreeNode) o;
 
         if (val != treeNode.val) return false;
-        if (left != null ? !left.equals(treeNode.left) : treeNode.left != null)
-            return false;
-        if (right != null ? !right.equals(treeNode.right) : treeNode.right != null)
-            return false;
-        return pre != null ? pre.equals(treeNode.pre) : treeNode.pre == null;
+        if (left != null ? !left.equals(treeNode.left) : treeNode.left != null) return false;
+        return right != null ? right.equals(treeNode.right) : treeNode.right == null;
     }
 
     @Override
@@ -35,7 +31,6 @@ public class TreeNode {
         int result = val;
         result = 31 * result + (left != null ? left.hashCode() : 0);
         result = 31 * result + (right != null ? right.hashCode() : 0);
-        result = 31 * result + (pre != null ? pre.hashCode() : 0);
         return result;
     }
 }

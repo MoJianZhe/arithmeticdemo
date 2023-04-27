@@ -15,7 +15,6 @@ public class JudgeBST {
      * 判断一颗数是不是二叉查找数，左子树都小于current，又子树都大于 current
      */
     public static boolean isBST(TreeNode treeNode) {
-        treeNode.pre = null;
         return helper(treeNode);
     }
 
@@ -26,7 +25,7 @@ public class JudgeBST {
      */
     //按照递归的形式，应该左边小于
     public static boolean helper(TreeNode root) {
-        if (root == null) {
+/*        if (root == null) {
             return true;
         }
         if (!helper(root.left)) {
@@ -36,7 +35,8 @@ public class JudgeBST {
             return false;
         }
         root.right.pre = root;
-        return helper(root.right);
+        return helper(root.right);*/
+        return false;
     }
 
 
