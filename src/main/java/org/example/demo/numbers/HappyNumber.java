@@ -55,8 +55,8 @@ public class HappyNumber {
         int sum = 0;
         while (n != 0) {
             int d = n % 10;
-            n = n / 10;
             sum = sum + d * d;
+            n = n / 10;
         }
         return sum;
     }
