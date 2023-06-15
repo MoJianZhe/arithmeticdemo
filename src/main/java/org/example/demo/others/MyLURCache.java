@@ -42,6 +42,8 @@ public class MyLURCache {
     public static void main(String[] args) {
         MyLURCache cache = new MyLURCache(2);
         LinkedHashMap<String, String> map = new LinkedHashMap<>();
+        map.put("1", "2");
+
         cache.put(1, 1);
         cache.put(2, 2);
         int get1 = cache.get(1);

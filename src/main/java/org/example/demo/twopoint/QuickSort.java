@@ -36,7 +36,7 @@ public class QuickSort {
         int v = nums[start];
         int i = start;
         int j = end;
-        while (i < j) {
+        while (i < j) { //不能直接 i<j ,因为 j在--
             while (nums[i] <= v) {
                 i++;
                 if (i == end) {break;}
@@ -51,8 +51,8 @@ public class QuickSort {
             //交换前，应该要判断一下i和j的大小。
             swap(nums, i, j);
         }
-        swap(nums, 0, i);
-        return i;
+        swap(nums, start, j);
+        return j;
     }
 
 
@@ -80,6 +80,8 @@ public class QuickSort {
         swap(nums, low, j);
         return j;
     }
+
+
 
     public static void swap(int[] nums, int a, int b) {
         int temp = nums[a];

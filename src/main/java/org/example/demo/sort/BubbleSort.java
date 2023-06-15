@@ -16,7 +16,7 @@ public class BubbleSort {
     private int[] bubbleSort(int[] array) {
         int temp;
         for (int i = 0; i < array.length - 1; i++) {
-            boolean Flag = false; // 是否发生交换。没有交换，提前跳出外层循环
+            boolean Flag = false; // 是否发生交换。没有交换，提前跳出外层循环.
             for (int j = 0; j < array.length - 1 - i; j++) {
                 if (array[j] > array[j + 1]) {
                     temp = array[j];
@@ -25,10 +25,22 @@ public class BubbleSort {
                     Flag = true;
                 }
             }
+            /**
+             * 没有交换，说明待排序的，都已经有序了。·
+             */
             if (!Flag) {
                 break;
             }
         }
         return array;
+    }
+
+    public static void main(String[] args) {
+        int a[] = {2, 3, 4, 2, 1, 3, 28, 2, 3, 4};
+        int[] b = new BubbleSort().bubbleSort(a);
+        for (int i = 0; i < b.length; i++) {
+            System.out.println(b[i]);
+        }
+
     }
 }
