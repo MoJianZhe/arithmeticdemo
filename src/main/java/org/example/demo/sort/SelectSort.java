@@ -5,7 +5,7 @@ import java.util.Arrays;
 import static org.example.demo.twopoint.QuickSort.swap;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/19
  * 选择排序
  * 选择最大（小）的数，放入新的列表

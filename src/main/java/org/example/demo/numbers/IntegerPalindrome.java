@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/6/17
  * 判断一个整数是否回文数，不能将其转换成字符串
  **/

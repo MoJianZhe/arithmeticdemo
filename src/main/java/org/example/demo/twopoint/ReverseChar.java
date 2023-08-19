@@ -1,7 +1,7 @@
 package org.example.demo.twopoint;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/23
  * #344
  * 翻转字符串

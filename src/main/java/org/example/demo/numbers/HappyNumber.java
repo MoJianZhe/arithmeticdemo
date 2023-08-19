@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/25
  * # 202
  * 总觉的这个事情是无限的，是无法求解的。

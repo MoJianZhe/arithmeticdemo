@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/24
  * 2数之和
  * #1

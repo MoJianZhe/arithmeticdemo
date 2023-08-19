@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/22
  * 随机生成函数
  **/

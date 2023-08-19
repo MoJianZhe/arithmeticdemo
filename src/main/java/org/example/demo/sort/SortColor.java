@@ -5,7 +5,7 @@ import org.example.demo.utils.ArrayUtils;
 import java.util.Arrays;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/22
  * #75
  *  三元快排

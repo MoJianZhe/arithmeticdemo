@@ -1,7 +1,7 @@
 package org.example.demo.sort;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/19
  * 冒泡排序
  * 将最大（小）的数一步一步放在队列的末尾，就像冒泡泡一样的浮现出来。

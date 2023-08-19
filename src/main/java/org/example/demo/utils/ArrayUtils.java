@@ -1,7 +1,7 @@
 package org.example.demo.utils;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/19
  **/
 public class ArrayUtils {

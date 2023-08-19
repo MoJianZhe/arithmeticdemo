@@ -3,7 +3,7 @@ package org.example.demo.sort;
 import java.util.Arrays;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/6/8
  * 堆排序
  **/

@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/24
  * 没有重复字母的最长字符串
  * #3

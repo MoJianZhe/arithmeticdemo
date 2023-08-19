@@ -1,7 +1,7 @@
 package org.example.demo.backtrack;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/5/1
  * #200 岛屿数量
  **/

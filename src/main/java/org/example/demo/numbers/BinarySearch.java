@@ -5,7 +5,7 @@ import org.example.demo.utils.DataUtil;
 import java.util.Arrays;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/22
  * 二分查找
  **/

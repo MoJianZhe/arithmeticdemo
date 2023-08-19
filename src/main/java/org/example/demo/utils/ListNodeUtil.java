@@ -5,7 +5,7 @@ import org.example.demo.arraylink.ListNode;
 import java.util.Objects;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/26
  **/
 public class ListNodeUtil {

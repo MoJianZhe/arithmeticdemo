@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/27
  * stack 模拟前序遍历
  **/

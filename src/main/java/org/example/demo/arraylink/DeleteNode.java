@@ -3,7 +3,7 @@ package org.example.demo.arraylink;
 import org.example.demo.utils.ListNodeUtil;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/26
  * 删除节点
  **/

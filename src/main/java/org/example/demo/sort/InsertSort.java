@@ -1,7 +1,7 @@
 package org.example.demo.sort;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/6/8
  * 插入排序
  * 插入有序的序列中

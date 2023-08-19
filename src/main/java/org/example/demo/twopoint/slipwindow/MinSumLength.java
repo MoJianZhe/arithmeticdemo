@@ -1,7 +1,7 @@
 package org.example.demo.twopoint.slipwindow;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/24
  * #209 大于target的最小滑动窗口长度
  **/

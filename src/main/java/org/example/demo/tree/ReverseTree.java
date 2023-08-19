@@ -1,7 +1,7 @@
 package org.example.demo.tree;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/28
  **/
 public class ReverseTree {

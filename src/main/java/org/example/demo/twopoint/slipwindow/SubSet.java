@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/24
  * #78
  * 返回数组子集

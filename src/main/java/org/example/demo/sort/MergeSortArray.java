@@ -1,7 +1,7 @@
 package org.example.demo.sort;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/22
  * #88
  **/

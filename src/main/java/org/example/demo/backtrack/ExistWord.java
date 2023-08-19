@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/30
  * #79 单词搜索
  * 给定二维数组中，是否存在这个单词

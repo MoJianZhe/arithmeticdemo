@@ -1,7 +1,7 @@
 package org.example.demo.tree;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/28
  * # 111 二叉树 最小深度
  * 和最深深度的区别就是，对最小问题的判断，不一样。

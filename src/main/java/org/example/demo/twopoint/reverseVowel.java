@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/23
  * #345
  * 反转元音字母

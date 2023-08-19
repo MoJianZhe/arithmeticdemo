@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/25
  * #290 单词规律
  **/

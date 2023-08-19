@@ -1,7 +1,7 @@
 package org.example.demo.numbers;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/22
  *  #27，#80
  *

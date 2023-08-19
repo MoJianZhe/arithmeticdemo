@@ -3,7 +3,7 @@ package org.example.demo.backtrack;
 import java.util.*;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/29
  *  #46
  * 全排列

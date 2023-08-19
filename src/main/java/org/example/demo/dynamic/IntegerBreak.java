@@ -1,7 +1,7 @@
 package org.example.demo.dynamic;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/5/5
  * #343
  * 给定一个正整数 n ，将其拆分为 k 个 正整数 的和（ k >= 2 ），并使这些整数的乘积最大化

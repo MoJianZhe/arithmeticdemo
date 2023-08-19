@@ -3,7 +3,7 @@ package org.example.demo.twopoint.slipwindow;
 import java.util.*;
 
 /**
- * @author lilinjun
+ * @author linjun
  * @date 2023/4/24
  * #438
  * 寻找异味字母
