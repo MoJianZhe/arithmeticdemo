@@ -40,7 +40,8 @@ public class StringDemo {
         ConcurrentSkipListMap<String, Integer> skipList = new ConcurrentSkipListMap<>();
         skipList.put("hello", 23);
         skipList.put("我的天啊", 24);
-        System.out.println(skipList.get("asdf")); ;
+        System.out.println(skipList.get("asdf"));
+
 
     }
 }
