@@ -1,6 +1,6 @@
 package org.example.demo.arraylink;
 
-import org.omg.CORBA.INTERNAL;
+
 
 /**
  * 跳跃表
